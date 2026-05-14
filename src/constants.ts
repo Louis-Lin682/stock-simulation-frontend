@@ -1,6 +1,7 @@
 import type { StockQuote } from './types'
 
-export const API_BASE_URL = 'http://localhost:3001'
+export const API_BASE_URL =
+  import.meta.env.VITE_API_BASE_URL?.trim() || 'http://localhost:3001'
 export const STOCK_LIST_BATCH_SIZE = 50
 export const MOBILE_STOCK_LIST_BATCH_SIZE = 10
 
