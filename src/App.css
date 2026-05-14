@@ -2841,7 +2841,7 @@ td span {
   }
 
   .mobile-view-market .order-panel {
-    min-height: min(520px, calc(100svh - 210px));
+    min-height: 535px;
   }
 
   .mobile-view-market .stock-list {
